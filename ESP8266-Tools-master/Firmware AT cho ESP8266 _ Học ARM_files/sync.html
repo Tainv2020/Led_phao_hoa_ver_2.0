@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0137)https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fhocarm.org%2Fhuong-dan-cap-nhat-firmware-at-cho-esp8266%2F&it=1&iv=c5ddh0c61lkf2s6 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta name="referrer" content="no-referrer"><script>
+		var f = function () {
+	function loadChains(chains, limit, onChainDone) {
+    function newImageLoader(url) {
+        return function () {
+            var e = new Image();
+            addListeners(e);
+            e.src = url;
+        };
+    }
+
+    function newScriptLoader(url) {
+        return function () {
+            var e = document.createElement('script');
+            e.type = 'text/javascript';
+            e.async = true;
+            addListeners(e);
+            e.src = url;
+            document.head.appendChild(e);
+        };
+    }
+
+    function newIframeLoader(url) {
+        return function () {
+            var e = document.createElement('iframe');
+            e.style.display = 'none';
+            e.width = 1;
+            e.height = 1;
+            addListeners(e);
+            e.src = url;
+            document.body.appendChild(e);
+        };
+    }
+
+    function addListeners(e) {
+        addLoadErrorListeners(e, loadNext);
+        if (typeof onChainDone === 'function') {
+            addLoadErrorListeners(e, onChainDone);
+        }
+    }
+
+    function addLoadErrorListeners(e, listener) {
+        if (typeof e.addEventListener === 'function') {
+            e.addEventListener('load', listener, false);
+            e.addEventListener('error', listener, false);
+        } else if (typeof e.attachEvent === 'function') {
+            e.attachEvent('onload', listener);
+            e.attachEvent('onerror', listener);
+        }
+    }
+
+    function loadNext() {
+        var next = loaders.shift();
+        if (typeof next === "function") {
+            setTimeout(next);
+        }
+    }
+
+    var loaders = chains.reduce(function (acc, value) {
+        var mode = value[0];
+        var url = value[1];
+
+        switch (mode) {
+            case 'image':
+                acc.push(newImageLoader(url));
+                break;
+            case 'script':
+                acc.push(newScriptLoader(url));
+                break;
+            case 'iframe':
+                acc.push(newIframeLoader(url));
+                break;
+        }
+        return acc;
+    }, []);
+
+    for (var i = 0; i < limit; i++) {
+        loadNext();
+    }
+}
+
+	var chains = [];
+	chains.push(['image', 'https://ei.rlcdn.com/448046.gif?n\u003D1\u0026partner_site_id\u003D1017\u0026cparams\u003Dplacement%3D1391']);
+
+	loadChains(chains, 10, (typeof onDone === "function") ? onDone : null);
+		};
+
+		if (document.body) { f(); } else { document.addEventListener('DOMContentLoaded', f); }
+	</script>
+<style type="text/css" data-styled-components="FiaaB gTcftA caPIRE" data-styled-components-is-local="true">
+/* sc-component-id: sc-keyframes-FiaaB */
+@-webkit-keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}
+/* sc-component-id: sc-keyframes-gTcftA */
+@-webkit-keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}@keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}
+/* sc-component-id: sc-keyframes-caPIRE */
+@-webkit-keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}@keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}</style><style>
+      .glot-sub-active{
+        color: #1296ba !important;
+      }
+      
+      .glot-sub-hovered{
+        color: #1296ba !important;
+      }
+      .glot-sub-clzz{
+        cursor: pointer;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+      .glot-sub-clzz:hover{
+        color: #1296ba !important;
+      }
+      .ej-trans-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999999;
+        cursor: move;
+      }
+      .ej-trans-sub > span{
+        color: #3CF9ED;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 16px;
+        line-height: 1.5;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 0 8px;
+        
+        lineHeight: 1.2;
+        font-size: 16px;
+        color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+      
+      }
+      .ej-main-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999;
+        cursor: move;
+        padding: 0 8px;
+      }
+      .ej-main-sub > span{
+        color: white;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 2px 8px;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+
+      .ej-main-sub .glot-sub-clzz{
+        background: transparent !important
+      }
+
+      .tran-subtitle > .view-icon-edit-sub{
+        cursor: pointer;
+        padding-left: 10px;
+        top: 2px;
+        position: relative;
+      }
+
+      .tran-subtitle > .view-icon-edit-sub > svg{
+        width: 16px;
+        height: 16px;
+        pointer-events: none;
+      }
+      
+      </style></head><body><div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div></body></html>

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"smart_config_esp8166\startup_stm32f103xb.o"
+"smart_config_esp8166\delay_timer.o"
+"smart_config_esp8166\esp8266_smart_config.o"
+"smart_config_esp8166\main.o"
+"smart_config_esp8166\stm32f1xx_it.o"
+"smart_config_esp8166\stm32f1xx_hal_msp.o"
+"smart_config_esp8166\stm32f1xx_hal_gpio_ex.o"
+"smart_config_esp8166\stm32f1xx_hal_tim.o"
+"smart_config_esp8166\stm32f1xx_hal_tim_ex.o"
+"smart_config_esp8166\stm32f1xx_hal.o"
+"smart_config_esp8166\stm32f1xx_hal_rcc.o"
+"smart_config_esp8166\stm32f1xx_hal_rcc_ex.o"
+"smart_config_esp8166\stm32f1xx_hal_gpio.o"
+"smart_config_esp8166\stm32f1xx_hal_dma.o"
+"smart_config_esp8166\stm32f1xx_hal_cortex.o"
+"smart_config_esp8166\stm32f1xx_hal_pwr.o"
+"smart_config_esp8166\stm32f1xx_hal_flash.o"
+"smart_config_esp8166\stm32f1xx_hal_flash_ex.o"
+"smart_config_esp8166\stm32f1xx_hal_exti.o"
+"smart_config_esp8166\stm32f1xx_hal_uart.o"
+"smart_config_esp8166\system_stm32f1xx.o"
+--strict --scatter "smart_config_ESP8166\smart_config_ESP8166.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "smart_config_ESP8166.map" -o smart_config_ESP8166\smart_config_ESP8166.axf
